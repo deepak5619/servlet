@@ -1,0 +1,101 @@
+
+
+<h1 style="color:red;text-align:center">All FormComps App</h1>
+
+<form action="formurl"  method="GET">
+    <table  border="0"  align="left">
+       <tr>
+         <td>Name:: </td>
+         <td><input type="text" name="pname"/> </td>
+       </tr>
+       <tr>
+         <td>Age:: </td>
+         <td><input type="password" name="page"/> </td>
+       </tr>
+       <tr>
+         <td>Contact No:: </td>
+         <td><input type="tel" name="phoneNo"/> </td>
+       </tr>
+       <tr>
+         <td>FaceBook Url:: </td>
+         <td><input type="url" name="fbUrl"/> </td>
+       </tr>
+       <tr>
+         <td>Email Id:: </td>
+         <td><input type="email" name="email"/> </td>
+       </tr>
+       <tr>
+         <td>Address::</td>
+         <td>
+            <textarea name="addrs" rows="4" cols="15">
+            </textarea>
+        </td>
+       </tr>
+       <tr>
+         <td>Marital Status:: </td>
+         <td><input type="checkbox" name="ms" value="marriged"/> Married </td>
+       </tr>
+       <tr>
+         <td>Gender:: </td>
+         <td>
+             <input type="radio" name="gender"  value="M">Male &nbsp; &nbsp; 
+             <input type="radio" name="gender"  value="F">FeMale &nbsp; &nbsp;
+         </td>
+       </tr>
+       <tr>
+         <td>Hobies </td>
+         <td>
+             <input type="checkbox" name="hb" value="sleeping"/>Meditation
+             <input type="checkbox" name="hb" value="watching"/>Watching TV
+             <input type="checkbox" name="hb" value="reading" checked/>Book Reading
+          </td>
+       </tr>
+        <tr>
+         <td>Qualification </td>
+         <td>
+            <select name="qlfy">
+                <option value="engg">B.Tech/B.E</option>
+                <option value="arts">B.A/M.A</option>
+                <option value="commerce">B.com/M.com</option>
+                <option value="science">B.sc/M.sc</option>
+            </select> 
+         </td>
+       </tr>
+        <tr>
+         <td>Courses:: </td>
+         <td>
+            <select name="courses" multiple >
+                 <option value='java' selected>Java Pkg </option>
+                 <option value='.net' selected>.NET Pkg </option>
+                 <option value='php'>PHP Pkg </option>
+                 <option value='ds'>DataScience Pkg </option>
+                 <option value='oracle'>Oracle Pkg </option>
+            </select>
+         </td>
+       </tr>
+        <tr>
+         <td>DOB:: </td>
+         <td><input type="date" name="dob" ></td>
+       </tr>
+        <tr>
+         <td>Faviourite week:: </td>
+         <td><input type="week" name="fweek" ></td>
+       </tr>
+        <tr>
+         <td>Faviourite Color:: </td>
+         <td><input type="color" name="fColor" ></td>
+       </tr>
+       <tr>
+         <td>Salary Range:: </td>
+         <td><input type="range"  name="salary" min="1000" max="100000" ></td>
+       </tr>
+       <tr>
+         <td>Month of Birth:: </td>
+         <td><input type="month" name="mob" ></td>
+       </tr>
+       <tr>
+         <td> <input type="submit"  value="submit"></td>
+         <td> <input type="reset"  value="cancel"></td>
+       </tr>
+    </table>
+ </form>
