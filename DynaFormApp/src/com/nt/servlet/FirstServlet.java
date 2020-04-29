@@ -21,7 +21,8 @@ public class FirstServlet extends HttpServlet {
     mstatus=req.getParameter("ms");
     if(mstatus.equals("single")) {
     	pw.println("<form action='secondurl' method='POST'>");
-    	pw.println("<table align='center' bgcolor='pink'>");
+    	pw.println("<br><h1 style='color:red ;text-align:center'>Enter your plan to marry</h1>");
+    	pw.println("<br><table align='center' bgcolor='pink'>");
     	pw.println("<tr><td>when to marry</td><td><input type='text' name='f2v1'></td></tr>");
     	pw.println("<tr><td>why to marry</td><td><input type='text' name='f2v2'></td></tr>");
     	pw.println("<input type='hidden' name='hname' value='"+name+"'>");
@@ -32,7 +33,8 @@ public class FirstServlet extends HttpServlet {
     }
     else {
     	pw.println("<form action='secondurl' method='POST'>");
-    	pw.println("<table align='center' bgcolor='pink'>");
+    	pw.println("<br><h1 style='color:red;text-align:center'>Enter your marriage info</h1>");
+    	pw.println("<br><table align='center' bgcolor='pink'>");
     	pw.println("<tr><td>name of spouse</td><td><input type='text' name='f2v1'></td></tr>");
     	pw.println("<tr><td>number of children</td><td><input type='text' name='f2v2'></td></tr>");
     	pw.println("<input type='hidden' name='hname' value='"+name+"'>");
