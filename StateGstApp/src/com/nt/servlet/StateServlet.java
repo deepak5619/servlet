@@ -55,7 +55,7 @@ public class StateServlet extends HttpServlet {
 			
 		}
 		rd.include(req,res);
-		//get the cgst of centralServlet
+		//get the cgst of centralServlet in CentralStateGstApp
 		cgst=(float) req.getAttribute("Attr1");
 	    total=sgst+cgst;
 	
